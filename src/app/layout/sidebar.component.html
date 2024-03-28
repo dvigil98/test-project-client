@@ -6,9 +6,9 @@
   <div class="sidebar">
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-        <li class="nav-header">Navegación principal</li>
+        <li class="nav-header">Navegacion principal</li>
         <li class="nav-item">
-          <a href="#" class="nav-link active">
+          <a routerLink="/admin/dashboard" routerLinkActive="active" href="#" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
             <p>Dashboard</p>
           </a>
@@ -16,14 +16,37 @@
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
-            <p>Módulo</p>
+            <p>Roles y permisos</p>
           </a>
         </li>
-        <li class="nav-header">Navegación de configuraciones</li>
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
-            <p>Módulo</p>
+            <p>Usuarios</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-th"></i>
+            <p>Empleados</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-th"></i>
+            <p>Clientes</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-th"></i>
+            <p>Vehiculos</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-th"></i>
+            <p>Rentas de vehiculos</p>
           </a>
         </li>
         <li class="nav-header">Perfil</li>
@@ -40,7 +63,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/auth/logout" class="nav-link">
             <i class="nav-icon fas fa-sign-out-alt"></i>
             <p>Salir</p>
           </a>
